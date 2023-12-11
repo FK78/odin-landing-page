@@ -137,3 +137,40 @@
   text-align: center;
   color: #1f2937;
 }
+
+#quote-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  height: 350px;
+}
+
+#quote {
+  width: 33%;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+#quote-subtext {
+  font-size: 18px;
+  color: #1f2937;
+  margin-left: 270px;
+  margin-top: 0px;
+  font-weight: bolder;
+}
+
+/* Footer section CSS */
+
+#footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  height: 100px;
+}
