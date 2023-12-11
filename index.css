@@ -5,12 +5,11 @@
   background-color: #1f2937;
 }
 
-/* CSS for the logo and navigation */
-
 #logo-and-navigation {
   display: flex;
   justify-content: space-between;
   margin-left: 150px;
+  margin-right: 150px;
 }
 
 #logo {
@@ -25,7 +24,6 @@
   color: #e5e7eb;
   font-size: 18px;
   justify-content: space-between;
-  padding-right: 90px;
 }
 
 #list-item {
@@ -33,14 +31,12 @@
   margin-left: 30px;
 }
 
-/* CSS for the section below the navigation */
-
 #hero-and-image-section {
   display: flex;
   height: 450px;
   justify-content: space-between;
-  padding-right: 90px;
-  padding-left: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 #left-container {
@@ -53,26 +49,27 @@
 }
 
 #main-hero-text {
+  max-width: 500px;
   font-size: 48px;
   font-weight: bolder;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 #secondary-hero-text {
   font-size: 18px;
   font-weight: lighter;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 5px;
 }
 
 #sign-up-button {
   color: #f9faf8;
-  font-weight: bold;
+  font-weight: 700;
   background-color: #3882f6;
   border-radius: 10px;
-  border: 0px;
-  padding: 8px 30px 8px 30px;
+  border: 0;
+  padding: 8px 30px;
   margin-top: 2px;
 }
 
@@ -107,6 +104,7 @@
   font-weight: bolder;
   font-size: 36px;
   padding-top: 25px;
+  padding-bottom: 20px;
 }
 
 #four-boxes {
@@ -148,29 +146,65 @@
 }
 
 #quote {
-  width: 33%;
+  min-width: 495px;
+  max-width: 495px;
   color: #1f2937;
   font-style: italic;
   font-weight: lighter;
   margin-top: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 #quote-subtext {
   font-size: 18px;
   color: #1f2937;
   margin-left: 270px;
-  margin-top: 0px;
+  margin-top: 0;
   font-weight: bolder;
 }
 
-/* Footer section CSS */
+#call-to-action-section {
+  height: 325px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9faf8;
+}
+
+#cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 25px 120px;
+}
+
+#cta-text-container {
+  margin-right: 100px;
+}
+
+#cta-main-text {
+  margin-bottom: 0;
+}
+
+#cta-subtext {
+  margin-top: 0;
+}
+
+#cta-sign-up-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  padding: 5px 25px;
+}
 
 #footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  color: white;
-  height: 100px;
+  color: #fff;
+  height: 80px;
 }
