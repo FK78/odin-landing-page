@@ -3,11 +3,14 @@ body {
 }
 
 #main-container {
-  margin-left: 100px;
-  margin-right: 100px;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 150px;
+  margin-right: 150px;
+  color: #f9faf8;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+/* CSS for the logo and navigation */
 
 #logo-and-navigation {
   display: flex;
@@ -31,4 +34,64 @@ body {
 #list-item {
   float: right;
   margin-left: 30px;
+}
+
+/* CSS for the section below the navigation */
+
+#hero-and-image-section {
+  display: flex;
+  height: 450px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#left-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 80px;
+}
+
+#main-hero-text {
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#secondary-hero-text {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#sign-up-button {
+  color: #f9faf8;
+  font-weight: bold;
+  background-color: #3882f6;
+  border-radius: 10px;
+  border: 0px;
+  padding: 8px 30px 8px 30px;
+  margin-top: 2px;
+}
+
+#right-container {
+  float: right;
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+#image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 500px;
+  height: 200px;
+  width: 100%;
+  background-color: #777f89;
 }
